@@ -1,0 +1,243 @@
+.padre nav {
+  position: static;
+}
+
+.padre nav .container-fluid .navbar-brand .logo {
+  position: static;
+  width: 80px;
+  height: 80px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 .container-medio .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 50px;
+}
+
+h1 .container-medio .row ul {
+  color: brown;
+  font-size: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.beneficios {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.beneficios .items .item {
+  text-align: center;
+  font-family: 'Unica One', cursive;
+  font-size: 20px;
+}
+
+.beneficios .items .item h5 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.beneficios .items .item h5 .texto {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.beneficios div h2 {
+  text-align: center;
+  padding: 5px;
+  border: solid white 2px;
+  font-family: 'Michroma', sans-serif;
+}
+
+.c {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c .reservas {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 20px;
+}
+
+.padre .video {
+  text-align: center;
+}
+
+.padre .parrafos {
+  text-align: center;
+}
+
+.padre .parrafos .titulos {
+  margin: 40px;
+  font-weight: 100;
+}
+
+.padre .parrafos {
+  text-align: center;
+  color: white;
+}
+
+.padre .parrafos .texto {
+  margin: 10px;
+  text-align: justify;
+  background: -webkit-gradient(linear, left top, left bottom, from(180dg), color-stop(to, white));
+  background: linear-gradient(180dg, white to black);
+}
+
+.padre footer {
+  margin-left: 50px;
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+.padre div .navega {
+  padding-top: 30px;
+  text-align: right;
+}
+
+.padre div .navega li {
+  display: inline;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+.padre main {
+  color: white;
+}
+
+.padre main .parrafos {
+  text-align: center;
+}
+
+.padre main .parrafos .titulos {
+  text-align: center;
+  font-weight: 100;
+}
+
+.padre main .parrafos .titulos .frases {
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.padre main .titulos img {
+  text-align: center;
+}
+
+.padre {
+  background: #16161c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#16161c), color-stop(60%, #696970), to(#696996));
+  background: linear-gradient(180deg, #16161c 0%, #696970 60%, #696996 100%);
+}
+
+.padre main .parrafos {
+  font-family: 'Michroma', sans-serif;
+}
+
+.padre main .parrafos #imagen {
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 320px) {
+  .padre {
+    background-color: #f69d3c;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 720px) {
+  .padre {
+    background-color: darkkhaki;
+  }
+}
+
+/* FOR */
+.caja-1 {
+  background-color: black;
+  border: solid 2px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.caja-2 {
+  background-color: black;
+  border: solid 2px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.caja-3 {
+  background-color: black;
+  border: solid 2px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.caja-4 {
+  background-color: black;
+  border: solid 2px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* EACH */
+.imgPortadaMalbec {
+  width: 100%;
+  background-image: url(../../imagenes/Malbec.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.imgPortadaCabernetSauvignon {
+  width: 100%;
+  background-image: url(../../imagenes/CabernetSauvignon.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.imgPortadaCabernetFranc {
+  width: 100%;
+  background-image: url(../../imagenes/CabernetFranc.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.imgPortadaPinotNoir {
+  width: 100%;
+  background-image: url(../../imagenes/PinotNoir.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.imgPortadaSyrah {
+  width: 100%;
+  background-image: url(../../imagenes/Syrah.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/*# sourceMappingURL=main.css.map */

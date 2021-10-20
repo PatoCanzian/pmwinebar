@@ -1,0 +1,20 @@
+/* FOR */
+@for $i from 1 through 4 {
+    .caja-#{$i} {
+        background-color: black;
+        border: solid 2px;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+/* EACH */
+@each $vinos in Malbec, CabernetSauvignon, CabernetFranc, PinotNoir, Syrah {
+    .imgPortada#{$vinos} {
+        width: 100%;
+        background-image: url(../../imagenes/#{$vinos}.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+}
